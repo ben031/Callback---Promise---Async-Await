@@ -16,7 +16,6 @@ let's dive into it a bit more.
 
 ![](https://miro.medium.com/max/1400/1*4XElRWCtF7C2XThHLYSBLQ.gif)
 
-
 ## Callback (콜백)
 
 콜백함수는 함수의 매개변수로 전달되어, 그 함수의 이벤트가 발생한 후 매개변수로 전달된 함수가 다시 호출되어 실행되는 것을 의미한다.
@@ -26,6 +25,12 @@ let's dive into it a bit more.
 그러나 중첩된 콜백 합수는 콜벡 지옥(Callback Hell)을 야기한다. 이에 콜백 지옥을 해결 하는 방법에는 밑에 있는 두 가지 방법이 존재한다.
 
 ![](https://miro.medium.com/max/1400/1*YCh1fXt_Ycf-00a9E88-Hg.png)
+
+최근에 공부한 node.js 를 통해 콜백 작동 원리를 더 깊게 이해 할 수 있었다.
+<br>
+단순하지만 단순하지 않은..
+<br>
+그냥 완료되면 다음 함수를 알아서 작동시켜줘 !! 인데..😅
 
 ## Promise
 
