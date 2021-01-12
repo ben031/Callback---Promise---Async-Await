@@ -34,6 +34,8 @@ let's dive into it a bit more.
 
 ## Promise
 
+![](https://www.deadcoderising.com/content/images/2017/09/sync-async.gif)
+
 ### "I Promise a Result!" 내가 결과를 약속한다!!
 
 <strong>"Producing code"는 시간이 조금 걸리는 코드
