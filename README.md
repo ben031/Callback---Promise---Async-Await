@@ -40,9 +40,10 @@ let's dive into it a bit more.
 <br />
 "Consuming code"는 결과를 기다려야만 하는 코드
 <br />
-Promise 이 두 코드를 연결시키는 자바스크립트 객체</strong>
+Promise 객체는 이 두 코드를 연결시키는 자바스크립트 객체</strong>
 <br />
-시간이 걸리는 코드가 성공적이라면 resolve(value)를 call하고 실패라면 reject(error)를 call한다.
+<br />
+시간이 걸리는 코드가 성공적이라면 resolve(value) 메소드를 call하고 실패라면 reject(error) 메소드를 call한다.
 <br />
 프로미스는 상태와 결과를 반환하는데 시간이 조금 걸리는 코드 상태라면 상태는 "pending", 성공적으로 마쳤다면 "fulfilled", 실패했다면 "rejected"를 반환한다.
 <br />
