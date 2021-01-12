@@ -25,6 +25,8 @@ let's dive into it a bit more.
 <br>
 그러나 중첩된 콜백 합수는 콜벡 지옥(Callback Hell)을 야기한다. 이에 콜백 지옥을 해결 하는 방법에는 밑에 있는 두 가지 방법이 존재한다.
 
+![](https://miro.medium.com/max/1400/1*YCh1fXt_Ycf-00a9E88-Hg.png)
+
 ## Promise
 
 ## Async / Await
