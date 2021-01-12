@@ -14,6 +14,9 @@ let's dive into it a bit more.
 <br />
 이렇게 스택이 하나인 싱글 스레드임에도 여러 가지 일을 동시적으로 처리하는 것을 우리는 <strong>동시성</strong> 이라고 표현한다
 
+![](https://miro.medium.com/max/1400/1*4XElRWCtF7C2XThHLYSBLQ.gif)
+
+
 ## Callback (콜백)
 
 콜백함수는 함수의 매개변수로 전달되어, 그 함수의 이벤트가 발생한 후 매개변수로 전달된 함수가 다시 호출되어 실행되는 것을 의미한다.
