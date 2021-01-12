@@ -15,11 +15,14 @@ function getPost() {
 
 function createPost(post) {
   return new Promise((resolve, reject) => {
+    // Producing code
     setTimeout(() => {
       posts.push(post);
       if (post) {
+        //성공
         resolve();
       } else {
+        //실패
         reject((err) => console.log(err));
       }
     }, 2000);
@@ -27,4 +30,5 @@ function createPost(post) {
 }
 
 // getPost();
+// Consuming code
 createPost({ title: "Post Three", body: "This is post three" }).then(getPost);

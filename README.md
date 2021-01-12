@@ -34,6 +34,23 @@ let's dive into it a bit more.
 
 ## Promise
 
-### "I Promise a Result!"
+### "I Promise a Result!" 내가 결과를 약속한다!!
+
+<strong>"Producing code"는 시간이 조금 걸리는 코드
+<br />
+"Consuming code"는 결과를 기다려야만 하는 코드
+<br />
+Promise 이 두 코드를 연결시키는 자바스크립트 객체</strong>
+<br />
+시간이 걸리는 코드가 성공적이라면 resolve(value)를 call하고 실패라면 reject(error)를 call한다.
+<br />
+프로미스는 상태와 결과를 반환하는데 시간이 조금 걸리는 코드 상태라면 상태는 "pending", 성공적으로 마쳤다면 "fulfilled", 실패했다면 "rejected"를 반환한다.
+<br />
+이제 결과를 기다려야만 하는 코드 쪽으로 넘어와 시간이 조금 걸리는 코드에서 반환한 value 혹은 error를 받을 것이다.
+
+### Promise.then, Promise.catch 메소드
+
+위의 Producing code에서 resolve()가 호출되었다면 then 메소드로 응답 결과를 출력하고
+reject()가 호출되었다면 catch 메소드로 오류를 출력한다.
 
 ## Async / Await
