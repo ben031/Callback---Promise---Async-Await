@@ -53,11 +53,16 @@ Promise 객체는 이 두 코드를 연결시키는 자바스크립트 객체</s
 
 ### Promise.then, Promise.catch 메소드
 
+위의 Producing code에서 resolve()가 호출되었다면 then 메소드로 응답 결과를 출력하고
+reject()가 호출되었다면 catch 메소드로 오류를 출력한다.
+
 ![](https://www.deadcoderising.com/content/images/2017/09/successful_callback.gif)
+
+then 메소드로 응답 결과를 출력.
 
 ![](https://www.deadcoderising.com/content/images/2017/09/callbacks_error.gif)
 
-위의 Producing code에서 resolve()가 호출되었다면 then 메소드로 응답 결과를 출력하고
-reject()가 호출되었다면 catch 메소드로 오류를 출력한다.
+catch 메소드로 오류를 출력
+
 
 ## Async / Await
