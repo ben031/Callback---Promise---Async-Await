@@ -87,3 +87,4 @@ async function foo() {
 
 foo();
 ```
+<hr />
