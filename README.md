@@ -36,7 +36,7 @@ let's dive into it a bit more.
 
 ![](https://www.deadcoderising.com/content/images/2017/09/sync-async.gif)
 
-### "I Promise a Result!" 내가 결과를 약속한다!!
+### > "I Promise a Result!" 내가 결과를 약속한다!!
 
 <strong>"Producing code"는 시간이 조금 걸리는 코드
 <br />
@@ -70,7 +70,6 @@ async / await를 이용하면 Promise를 쉽게 사용할 수 있다. 함수 앛
 <br />
 이제 await의 멋진 기능을 살펴 보자. await의 의미는 기다린다는 뜻이다. 단어의 의미 그대로 Promise가 처리 될 때까지 기다린다. 결과는 처리 된 후에 반환된다. await는 async가 붙은 함수 안에서만 사용할 수 있다.
 <br />
-\*\*예시 코드
 
 ```javascript
 async function f() {
