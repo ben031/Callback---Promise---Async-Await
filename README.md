@@ -72,7 +72,7 @@ async / await를 이용하면 Promise를 쉽게 사용할 수 있다. async 함�
 <br />
 <hr />
 
-*예시 코드*
+*async/await 예시 코드*
 
 ```javascript
 async function foo() {
@@ -87,6 +87,5 @@ async function foo() {
 
 foo();
 ```
-
 <hr />
-**세 가지를 잘 표현한 이미지**
+## 비동기적
