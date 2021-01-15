@@ -69,11 +69,13 @@ catch 메소드로 오류를 출력.
 async / await를 이용하면 Promise를 쉽게 사용할 수 있다. 함수 앛에 async를 붙이면 항상 함수는 반드시 Promise를 반환한다. 만약 Promise가 아닌 것은 Promise로 감싸 반환한다. 즉, resolve나 reject로 감싸 값을 반환한다.
 <br />
 이제 await의 멋진 기능을 살펴 보자. await의 의미는 기다린다는 뜻이다. 단어의 의미 그대로 Promise가 처리 될 때까지 기다린다. 결과는 처리 된 후에 반환된다. await는 async가 붙은 함수 안에서만 사용할 수 있다.
+<br />
+\*\*예시 코드
+
 ```javascript
 async function f() {
-
   let promise = new Promise((resolve, reject) => {
-    setTimeout(() => resolve("완료!"), 1000)
+    setTimeout(() => resolve("완료!"), 1000);
   });
 
   let result = await promise; // 프라미스가 이행될 때까지 기다림 (*)
