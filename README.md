@@ -88,4 +88,4 @@ async function foo() {
 foo();
 ```
 <hr />
-# 비동기적
+## 비동기적
