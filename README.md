@@ -92,3 +92,14 @@ foo();
 <hr />
 
 ## 결론
+
+![](https://johnpapa.net/content/images/2020/02/async-ts-1.png)
+참조: https://johnpapa.net/async-comparisons/
+
+좋은 사진이 있어서 가지고 왔다😉
+<br />
+추가 할 내용이 생긴다면 계속해서 업데이트를 할 예정.(아직 너무 부족한 내용과 이해 때문에..ㅎ😅)
+<br />
+그럼 여기서 마치도록 하겠다😀
+<br />
+비동기야 내가 더 이해해줄게 조금만 기다려라😆
