@@ -34,9 +34,9 @@ let's dive into it a bit more.
 
 ## Promise
 
-![](https://www.deadcoderising.com/content/images/2017/09/sync-async.gif)
-
 >"I Promise a Result!" 내가 결과를 약속한다!!
+
+![](https://www.deadcoderising.com/content/images/2017/09/sync-async.gif)
 
 <strong>"Producing code"는 시간이 조금 걸리는 코드
 <br />
@@ -73,7 +73,7 @@ async / await를 이용하면 Promise를 쉽게 사용할 수 있다. 함수 앛
 \*\*예시 코드
 
 ```javascript
-async function f() {
+async function foo() {
   let promise = new Promise((resolve, reject) => {
     setTimeout(() => resolve("완료!"), 1000);
   });
@@ -83,5 +83,5 @@ async function f() {
   alert(result); // "완료!"
 }
 
-f();
+foo();
 ```
